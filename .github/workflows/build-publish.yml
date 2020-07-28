@@ -35,5 +35,5 @@ jobs:
         MODYO_ACCOUNT_URL: ${{secrets.BASE_URL}}
         MODYO_VERSION: ${{secrets.VERSION}}
         MODYO_TOKEN: ${{secrets.TOKEN}}
-        MODYO_SITE_ID: ${{secrets.SITE_ID}}
+        MODYO_SITE_HOST: ${{secrets.SITE_ID}}
         MODYO_WIDGET_NAME: ${{secrets.WIDGET_NAME}}
